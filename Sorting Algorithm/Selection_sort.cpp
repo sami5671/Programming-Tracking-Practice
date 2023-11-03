@@ -2,10 +2,8 @@
 
 #include<iostream>
 using namespace std;
-
 // creating function for selection sort
 void selectionSort(int arr[], int n){
-// main section of selection sort 
     int temp;
 
     for (int i = 0; i < n-1; i++)
@@ -31,7 +29,6 @@ void selectionSort(int arr[], int n){
 }
 // creating function for printing result
 void displaySortedArray(int arr[], int n){
-// this section is for printing the new sorted array
     cout << "NEW SORTED ARRAY IS: "<< " ";
         for (int q = 0; q < n; q++)
         {
@@ -55,5 +52,5 @@ int main(){
 
     selectionSort(arr, n);
     displaySortedArray(arr, n);
-    
+
 }
